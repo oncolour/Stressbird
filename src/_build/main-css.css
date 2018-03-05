@@ -45,4 +45,43 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/** Main **/
+main {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  background: linear-gradient(to bottom, #5a4dbe 40%, #c575e0 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fbdd78;
+  -webkit-font-smoothing: antialiased; }
+  main h1 {
+    font-size: 80px;
+    max-width: 620px;
+    padding: 70px 30px 0;
+    font-weight: 600;
+    margin-bottom: 10px; }
+  main span {
+    max-width: 620px;
+    font-size: 20px;
+    padding: 0 30px; }
+    main span a {
+      text-decoration: underline;
+      font-weight: 400;
+      color: #fbdd78; }
+      main span a:hover {
+        text-decoration: none; }
+    main span:last-child {
+      font-size: 24px;
+      font-weight: bold;
+      padding-bottom: 100px; }
+  main p {
+    max-width: 620px;
+    font-size: 24px;
+    line-height: 1.55;
+    margin: 90px 0 50px;
+    padding: 0 30px; }
+
 /*# sourceMappingURL=main-css.css.map */

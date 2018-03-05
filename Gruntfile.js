@@ -12,7 +12,7 @@ module.exports = function (grunt) {
             },
             dist: {
                 files: {
-                    './src/_build/main-css.css': './src/sass/**/*.{scss,sass}'
+                    './src/_build/main-css.css': './src/sass/*.{scss,sass}'
                 }
             }
         },
@@ -64,11 +64,11 @@ module.exports = function (grunt) {
 
         watch: {
             sass: {
-                files: './src/sass/**/*.{scss,sass}',
+                files: './src/sass/*.{scss,sass}',
                 tasks: 'sass'
             },
             cssmin: {
-                files: './src/_build/**/*.css',
+                files: './src/_build/*.css',
                 tasks: 'cssmin'
             },
             js: {

@@ -1,1 +1,53 @@
 @import 'imports/Reset_css_2';
+
+/** Main **/
+
+$width: 620px;
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(90, 77, 190, 1) 40%, rgba(197, 117, 224, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fbdd78;
+    -webkit-font-smoothing: antialiased;
+
+    h1 {
+        font-size: 80px;
+        max-width: $width;
+        padding: 70px 30px 0;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    span {
+        max-width: $width;
+        font-size: 20px;
+        padding: 0 30px;
+        a {
+            text-decoration: underline;
+            font-weight: 400;
+            color: #fbdd78;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        &:last-child {
+            font-size: 24px;
+            font-weight: bold;
+            padding-bottom: 100px;
+        }
+    }
+
+    p {
+        max-width: $width;
+        font-size: 24px;
+        line-height: 1.55;
+        margin: 90px 0 50px;
+        padding: 0 30px;
+    }
+
+}
